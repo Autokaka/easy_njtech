@@ -9,12 +9,6 @@ $crypto = Crypto::getInstance();
 $configs = $crypto->decrypt($configs);
 $configs = json_decode($configs, true);
 
-// // 测试接口
-// $configs = [
-// 	'username' => '1405170120',
-// 	'password' => 'Skylucas244013',
-// ];
-
 // 执行登录
 $client = new Njtech($configs);
 echo($client->login());
