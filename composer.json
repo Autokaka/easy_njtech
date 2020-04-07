@@ -1,0 +1,6 @@
+{
+    "require": {
+        "fabpot/goutte": "^4.0",
+        "aliyuncs/oss-sdk-php": "^2.3"
+    }
+}
